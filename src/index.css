@@ -1,0 +1,35 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  min-height: 100vh;
+  font-family: 'Nunito', 'Comic Sans MS', cursive, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #b3e5fc 0%, #c8e6c9 50%, #fff9c4 100%);
+  background-attachment: fixed;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 640px;
+}
+
+.app-footer {
+  margin-top: 2rem;
+  font-size: 13px;
+  font-weight: 700;
+  color: #2e7d32;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+button { font-family: inherit; }
