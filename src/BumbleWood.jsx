@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 const STORY = {
   start: {
     art: "🧙‍♀️✨🏡💫",
-    story: `Meet FIZZWICK BUMBLEWAND — Fizzy to her friends! 🌟 She's Professor Wobble's apprentice, and she just knocked over his biggest, sparkliest bottle! 🫧 WHOOSH! BOING! All of Bumblewood village has shrunk to thimble-size! 😱 Mimsy the hummingbird zooms in: "Zip zip — don't worry Fizzy!" 🐦 Tobble the mouse adjusts his top hat: "Adventure awaits, friends!" 🐭🎩 They must find the un-shrinking spell before sundown! Which way?`,
+    story: `Meet FIZZWICK BUMBLEWAND — Fizzy to her friends! 🌟 She's Professor Wobble's apprentice, and she just knocked over his biggest, sparkliest bottle! 🫧 WHOOSH! BOING! All of Bumblewood village has shrunk to thimble-size! 😱 Mimsy the hummingbird zooms in: "Zip zip — don't worry Fizzy!" 🐦 Tobble the mouse adjusts his top hat: "Adventure awaits, dosto!" 🐭🎩 They must find the un-shrinking spell before sundown! Which way?`,
     choices: [
       { text: "🍄 Climb the giant mushroom!", next: "mushroom", color: "#2e7d32", bg: "#e8f5e9", stars: 1 },
       { text: "🐜 Visit the ant kingdom", next: "ants", color: "#e65100", bg: "#fff3e0", stars: 1 },
