@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import BookTwoSignup from './BookTwoSignup.jsx';
 
 // ============= CHARACTER ILLUSTRATIONS (SVG) =============
 
@@ -1647,6 +1648,7 @@ export default function BumbleWood() {
           <div style={{ display: "flex", gap: 10, justifyContent: "center", flexWrap: "wrap" }}>
             <button onClick={restartStory} style={{ background: "#42a5f5", border: "none", borderRadius: 18, padding: "0.75rem 1.5rem", fontSize: 15, fontWeight: 800, color: "#fff", cursor: "pointer", boxShadow: "0 4px 0 #1565c0" }}>🔄 Play Again!</button>
             <button onClick={reopenIntro} style={{ background: "#fff", border: "2px solid #6a1b9a", borderRadius: 18, padding: "0.75rem 1.5rem", fontSize: 15, fontWeight: 800, color: "#6a1b9a", cursor: "pointer" }}>📖 Re-read Guide</button>
+            <BookTwoSignup />   {/* ← ADD THIS LINE */}
           </div>
         </div>
       </div>
